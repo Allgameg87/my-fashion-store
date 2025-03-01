@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Моды и Одежды от Arhaon</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Подключение Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Магазин Моды и Одежды от Arhaon</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="cart.html" id="cart-link">Корзина (<span id="cart-count">0</span>)</a></li>
+                    </ul>
+                </nav>
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Поиск...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>Добро пожаловать!</h2>
+            <p>Здесь вы найдете лучшие предложения в мире моды и одежды.</p>
+        </div>
+    </section>
+    <section id="catalog">
+        <div class="container">
+            <h2>Наш Каталог</h2>
+            <div class="products">
+                <div class="product" data-id="1" data-name="Классические прямые джинсы" data-price="3300" data-image="product1.jpg">
+                    <img src="images/product1.jpg" alt="Продукт 1">
+                    <h3>Классические прямые джинсы</h3>
+                    <p>цвет: черный, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 3300 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="product" data-id="2" data-name="Классические прямые укороченные джинсы" data-price="2500" data-image="product2.jpg">
+                    <img src="images/product2.jpg" alt="Продукт 2">
+                    <h3>Классические прямые укороченные джинсы</h3>
+                    <p>цвет: синий, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 2500 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="product" data-id="3" data-name="Джинсы варенки прямые" data-price="4400" data-image="product3.jpg">
+                    <img src="images/product3.jpg" alt="Продукт 3">
+                    <h3>Джинсы варенки прямые</h3>
+                    <p>цвет: синий, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 4400 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="product" data-id="4" data-name="Зауженные джинсы багги с вареным эффектом" data-price="4800" data-image="product4.jpg">
+                    <img src="images/product4.jpg" alt="Продукт 4">
+                    <h3>Зауженные джинсы багги с вареным эффектом</h3>
+                    <p>цвет: светло-серый, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 4800 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="product" data-id="5" data-name="Зауженные джинсы багги с вареным эффектом" data-price="3200" data-image="product5.jpg">
+                    <img src="images/product5.jpg" alt="Продукт 5">
+                    <h3>Зауженные джинсы багги с вареным эффектом</h3>
+                    <p>цвет: светло-голубой, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 3200 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="product" data-id="6" data-name="Классические укороченные прямые джинсы" data-price="2900" data-image="product6.jpg">
+                    <img src="images/product6.jpg" alt="Продукт 6">
+                    <h3>Классические укороченные прямые джинсы</h3>
+                    <p>цвет: черный, пол: мужской, хлопок: 100%</p>
+                    <p class="price">Цена: 2900 руб.</p>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы предлагаем широкий ассортимент модной одежды для разных возрастов и стилей. Наша команда профессионалов всегда готова помочь вам выбрать идеальную вещь, которая подчеркнет вашу индивидуальность.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (999) 999-99-99</p>
+            <p>Email: info@example.com</p>
+            <p>Адрес: г. Москва, ул. Ленина, д. 1</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Магазин Моды и Одежды. Все права защищены.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Всплывающий значек поддержки -->
+    <div id="support-icon" class="support-icon">
+        <i class="fas fa-comment-alt"></i>
+    </div>
+
+    <!-- Окошко чата поддержки -->
+    <div id="chat-window" class="chat-window">
+        <div class="chat-header">
+            <span>Поддержка</span>
+            <span class="close-chat">&times;</span>
+        </div>
+        <div class="chat-messages">
+            <div class="message support-message">
+                <p>Добро пожаловать! Чем могу помочь?</p>
+            </div>
+            <!-- Добавьте другие сообщения здесь -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Введите ваш вопрос...">
+            <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
